@@ -1,3 +1,27 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family:'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    display: flexbox;
+}
+
+ol li{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.content{
+    top: 50%;
+    left: 8%;
+    background-color: black;
+    opacity: 0.5;
+    padding: 55px ;
+    display: block;   
+}
+
 body{
     background: url(./assests/pexels-nemuel-sereti-6424589.jpg);
     background-size: cover;
@@ -56,8 +80,32 @@ span{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    opacity: 70%;
 }
 
-table{
-    background-color: grey;
+.table{
+    opacity: 50%;
 }
+tr{
+    color: brown;
+}
+
+.contact{
+    top: 50%;
+    left: 8%;
+    background-color: black;
+    opacity: 50%;
+    padding: 55px ;
+    display: block;   
+}
+
+.train{
+    background: black;
+}
+.he{
+    color: aliceblue;
+}
+ul{
+    color: aliceblue;
+}
+
