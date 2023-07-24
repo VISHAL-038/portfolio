@@ -6,6 +6,13 @@
     display: flexbox;
 }
 
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+
 ol li{
     color: white;
     text-decoration: none;
@@ -25,7 +32,14 @@ ol li{
 body{
     background: url(./assests/pexels-nemuel-sereti-6424589.jpg);
     background-size: cover;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
+
+section {
+    padding: 2rem;
+  }
 
 .logo{
     color: white;
@@ -87,17 +101,10 @@ span{
     opacity: 50%;
 }
 tr{
-    color: brown;
+    color: white;
 }
 
-.contact{
-    top: 50%;
-    left: 8%;
-    background-color: black;
-    opacity: 50%;
-    padding: 55px ;
-    display: block;   
-}
+
 
 .train{
     background: black;
@@ -109,3 +116,41 @@ ul{
     color: aliceblue;
 }
 
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+  }
+  section p {
+    margin-bottom: 1.5rem;
+  }
+
+  section ul {
+    list-style: square;
+  } 
+
+  hr{
+    height: 1px;
+    background-color: black;
+    border: none;
+}
+
+
+.contact-left{
+    background-color: black;
+    opacity: 50%;
+}
+
+.lead{
+    color: #fff;
+}
+
+.title{
+    color: white;
+}
